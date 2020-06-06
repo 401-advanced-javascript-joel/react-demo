@@ -1,0 +1,42 @@
+$purple: rgb(170, 61, 170);
+$red: rgb(240, 65, 65);
+$blue: rgb(90, 90, 230);
+
+$spacing: 20px;
+
+.header {
+  background-color: $purple;
+  text-align: center;
+  padding: $spacing;
+}
+
+.content {
+  float: right;
+  width: 50%;
+  background-color: $red;
+}
+
+.content input {
+  margin-top: $spacing;
+  width: 80%;
+  font-size: 18px;
+  padding: $spacing/2;
+}
+
+.graphic {
+  text-align: center;
+  background-color: $blue;
+  float: left;
+  width: 50%;
+  margin-bottom: $spacing/2;
+
+  img {
+    width: 50%;
+    max-height: 200px;
+    height: auto;
+  }
+
+  &:last-child {
+    clear: both;
+  }
+}
