@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot test for app matches the snapshot 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="header"
+  >
+    <h1>
+      Enter your name
+    </h1>
+    <input
+      onChange={[Function]}
+      type="text"
+      value="Sarah Smalls"
+    />
+    <h2
+      className="welcome-message"
+    >
+      Welcome 
+      Sarah Smalls
+      ! Do you like icecream?
+    </h2>
+    <p
+      className="child"
+    >
+      Im a Child
+    </p>
+    <h2>
+      This is my first React App
+    </h2>
+    <p>
+      Coded by Joel Watson
+    </p>
+  </div>
+  <div
+    className="content"
+  >
+    <input
+      onChange={[Function]}
+      type="text"
+    />
+    <h3>
+      Welcome 
+      Sarah Smalls
+    </h3>
+  </div>
+  <div
+    className="graphic"
+  >
+    <img
+      src="pic.jpeg"
+    />
+  </div>
+  <div
+    className="graphic"
+  >
+    <img
+      src="pic1.jpeg"
+    />
+  </div>
+</div>
+`;
